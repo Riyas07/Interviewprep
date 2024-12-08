@@ -1,0 +1,13 @@
+<suite name="base">
+    <parameter name="browser" value="chrome"/>
+    <groups>
+        <run>
+            <include name="sanity"/>
+        </run>
+    </groups>
+    <test name="test" >
+        <classes>
+            <class name="testcase1"/>
+        </classes>
+    </test>
+</suite>
